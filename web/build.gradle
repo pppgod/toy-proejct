@@ -9,7 +9,7 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
-def webappDir = "$projectDir/src/main/resources/webapp"
+def webappDir = "$projectDir/src/webapp"
 
 // npm install 과정
 task appNpmInstall(type: NpmTask) {
